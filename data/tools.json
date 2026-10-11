@@ -1,0 +1,311 @@
+{
+  "keyword": "replicate alternative",
+  "title": "Replicate Alternative Platforms: 8 Hosts Compared on Deploys and Webhooks",
+  "lastChecked": "2026-10-11",
+  "capabilityChecks": [
+    {
+      "key": "runsAChainInOneCall",
+      "label": "Runs a chain in one call"
+    },
+    {
+      "key": "completionWebhook",
+      "label": "Completion webhook"
+    },
+    {
+      "key": "deployYourOwnModel",
+      "label": "Deploy your own model"
+    },
+    {
+      "key": "scaleToZero",
+      "label": "Scale to zero"
+    },
+    {
+      "key": "officialMcpServer",
+      "label": "Official MCP server"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": "Best overall for running a multi-model chain from one API call",
+      "homepage": "https://www.wireflow.ai/",
+      "docs": "https://www.wireflow.ai/docs/api/overview",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "Claude connector over MCP, OAuth",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": null,
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Run a saved workflow with a completion webhook, from the official Webhooks page. Replace the workflow ID, input, metadata and URL, and set WIREFLOW_API_KEY to your own key.",
+          "lang": "bash",
+          "code": "curl -X POST https://www.wireflow.ai/api/v1/workflows/cm1abc123/run \\\n  -H \"Authorization: Bearer $WIREFLOW_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"inputs\": { \"node-prompt\": \"A cat wearing a top hat\" },\n    \"metadata\": { \"jobId\": \"job_42\" },\n    \"webhook\": {\n      \"url\": \"https://yourapp.com/api/webhooks/wireflow\",\n      \"secret\": \"whsec_your_signing_secret\"\n    }\n  }'"
+        }
+      ],
+      "moneyPage": "https://www.wireflow.ai/ai-workflow-builder",
+      "moneyPageLabel": "Wireflow AI workflow builder page",
+      "capabilities": {
+        "runsAChainInOneCall": true,
+        "completionWebhook": true,
+        "deployYourOwnModel": null,
+        "scaleToZero": null,
+        "officialMcpServer": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "fal",
+      "tagline": "Best for hosted models and your own serverless apps behind one queue",
+      "homepage": "https://fal.ai/",
+      "docs": "https://fal.ai/docs/documentation/serverless",
+      "pricing": "https://fal.ai/pricing",
+      "claudeConnection": "Hosted MCP, Streamable HTTP, OAuth",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": "fal-ai/fal",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Install the fal CLI, from fal's Serverless docs. Then test an app with fal run and ship it with fal deploy.",
+          "lang": "bash",
+          "code": "pip install fal"
+        }
+      ],
+      "capabilities": {
+        "runsAChainInOneCall": true,
+        "completionWebhook": true,
+        "deployYourOwnModel": true,
+        "scaleToZero": true,
+        "officialMcpServer": true
+      },
+      "live": {
+        "stars": 966,
+        "lastPush": "2026-10-09T21:30:04Z",
+        "latestRelease": "fal_v1.81.4",
+        "latestReleaseDate": "2026-10-08",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "n": 3,
+      "name": "Baseten",
+      "tagline": "Best for engineering teams serving their own models in production",
+      "homepage": "https://www.baseten.co/",
+      "docs": "https://docs.baseten.co/development/model/overview",
+      "pricing": "https://www.baseten.co/pricing",
+      "claudeConnection": "Management MCP, dedicated API key",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": "basetenlabs/truss",
+      "note": "The linked repository is Truss, Baseten's model packaging framework.",
+      "quickstart": [
+        {
+          "label": "Create a development deployment from a Truss directory, from the official Develop a model page.",
+          "lang": "bash",
+          "code": "baseten model push --watch"
+        }
+      ],
+      "capabilities": {
+        "runsAChainInOneCall": true,
+        "completionWebhook": true,
+        "deployYourOwnModel": true,
+        "scaleToZero": true,
+        "officialMcpServer": true
+      },
+      "live": {
+        "stars": 1216,
+        "lastPush": "2026-10-10T14:57:48Z",
+        "latestRelease": "v0.18.33",
+        "latestReleaseDate": "2026-10-06",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "n": 4,
+      "name": "RunPod Serverless",
+      "tagline": "Best for running your own container on GPUs that scale to zero",
+      "homepage": "https://www.runpod.io/",
+      "docs": "https://docs.runpod.io/serverless/workers/overview",
+      "pricing": "https://www.runpod.io/pricing",
+      "claudeConnection": "Hosted MCP or npm package; manages infrastructure",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": "runpod/runpod-python",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Install the Python SDK, from the official Serverless SDKs page (Python 3.10 or higher).",
+          "lang": "bash",
+          "code": "pip install runpod"
+        }
+      ],
+      "capabilities": {
+        "runsAChainInOneCall": null,
+        "completionWebhook": true,
+        "deployYourOwnModel": true,
+        "scaleToZero": true,
+        "officialMcpServer": true
+      },
+      "live": {
+        "stars": 316,
+        "lastPush": "2026-10-09T20:59:49Z",
+        "latestRelease": "v1.12.0",
+        "latestReleaseDate": "2026-08-10",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "n": 5,
+      "name": "Runware",
+      "tagline": "Best for bulk image jobs where each item reports back on its own",
+      "homepage": "https://runware.ai/",
+      "docs": "https://runware.ai/docs/models-api/introduction",
+      "pricing": "https://runware.ai/pricing",
+      "claudeConnection": "Hosted MCP, OAuth with an API-key form",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": "runware/runware-python",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Install the Python SDK, from the official Python SDK page (Python 3.11 or higher).",
+          "lang": "bash",
+          "code": "pip install runware-sdk"
+        }
+      ],
+      "capabilities": {
+        "runsAChainInOneCall": false,
+        "completionWebhook": true,
+        "deployYourOwnModel": true,
+        "scaleToZero": true,
+        "officialMcpServer": true
+      },
+      "live": {
+        "stars": 3,
+        "lastPush": "2026-10-10T22:15:32Z",
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "n": 6,
+      "name": "WaveSpeedAI",
+      "tagline": "Best for calling many hosted models with a price quote first",
+      "homepage": "https://wavespeed.ai/",
+      "docs": "https://wavespeed.ai/docs/how-to-use-webhooks",
+      "pricing": "https://wavespeed.ai/docs/how-pricing-works",
+      "claudeConnection": "Local MCP via npx, API key",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": "WaveSpeedAI/wavespeed-python",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Add the MCP server to Claude Code, from the official WaveSpeedAI/mcp-server README. Set WAVESPEED_API_KEY first.",
+          "lang": "bash",
+          "code": "claude mcp add wavespeed -- npx -y @wavespeed/mcp"
+        }
+      ],
+      "capabilities": {
+        "runsAChainInOneCall": false,
+        "completionWebhook": true,
+        "deployYourOwnModel": null,
+        "scaleToZero": null,
+        "officialMcpServer": true
+      },
+      "live": {
+        "stars": 28,
+        "lastPush": "2026-09-21T20:16:49Z",
+        "latestRelease": "v2.0.3",
+        "latestReleaseDate": "2026-09-21",
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "n": 7,
+      "name": "Modal",
+      "tagline": "Best for Python teams that write their own queue logic",
+      "homepage": "https://modal.com/",
+      "docs": "https://modal.com/docs/guide/managing-deployments",
+      "pricing": "https://modal.com/pricing",
+      "claudeConnection": null,
+      "restApi": null,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": "modal-labs/modal-client",
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Deploy an app, from the official Managing deployments guide (the module name is the guide's example).",
+          "lang": "bash",
+          "code": "modal deploy -m whisper_pod_transcriber.main"
+        }
+      ],
+      "capabilities": {
+        "runsAChainInOneCall": null,
+        "completionWebhook": null,
+        "deployYourOwnModel": true,
+        "scaleToZero": true,
+        "officialMcpServer": null
+      },
+      "live": {
+        "stars": 523,
+        "lastPush": "2026-10-09T21:37:09Z",
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": "2026-10-11"
+      }
+    },
+    {
+      "n": 8,
+      "name": "Hugging Face Inference Endpoints",
+      "tagline": "Best for serving a Hub model on dedicated hardware",
+      "homepage": "https://huggingface.co/docs/inference-endpoints/index",
+      "docs": "https://huggingface.co/docs/inference-endpoints/index",
+      "pricing": "https://huggingface.co/docs/inference-endpoints/support/pricing",
+      "claudeConnection": "Endpoints MCP server, manages endpoints",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": "huggingface/huggingface_hub",
+      "note": "The linked repository is huggingface_hub, which manages Inference Endpoints from Python.",
+      "quickstart": [
+        {
+          "label": "Install huggingface_hub, which manages Inference Endpoints from Python, from the official huggingface_hub installation page.",
+          "lang": "bash",
+          "code": "pip install --upgrade huggingface_hub"
+        }
+      ],
+      "capabilities": {
+        "runsAChainInOneCall": null,
+        "completionWebhook": null,
+        "deployYourOwnModel": true,
+        "scaleToZero": true,
+        "officialMcpServer": true
+      },
+      "live": {
+        "stars": 3974,
+        "lastPush": "2026-10-10T03:06:11Z",
+        "latestRelease": "v2.2.0",
+        "latestReleaseDate": "2026-10-08",
+        "checkedAt": "2026-10-11"
+      }
+    }
+  ]
+}
