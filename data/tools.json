@@ -1,7 +1,7 @@
 {
   "keyword": "replicate alternative",
   "title": "Replicate Alternative Platforms: 8 Hosts Compared on Deploys and Webhooks",
-  "lastChecked": "2026-10-11",
+  "lastChecked": "2026-10-12",
   "capabilityChecks": [
     {
       "key": "runsAChainInOneCall",
@@ -90,11 +90,11 @@
         "officialMcpServer": true
       },
       "live": {
-        "stars": 966,
-        "lastPush": "2026-10-09T21:30:04Z",
+        "stars": 968,
+        "lastPush": "2026-10-12T12:36:47Z",
         "latestRelease": "fal_v1.81.4",
         "latestReleaseDate": "2026-10-08",
-        "checkedAt": "2026-10-11"
+        "checkedAt": "2026-10-12"
       }
     },
     {
@@ -125,11 +125,11 @@
         "officialMcpServer": true
       },
       "live": {
-        "stars": 1216,
+        "stars": 1219,
         "lastPush": "2026-10-10T14:57:48Z",
         "latestRelease": "v0.18.33",
         "latestReleaseDate": "2026-10-06",
-        "checkedAt": "2026-10-11"
+        "checkedAt": "2026-10-12"
       }
     },
     {
@@ -164,7 +164,7 @@
         "lastPush": "2026-10-09T20:59:49Z",
         "latestRelease": "v1.12.0",
         "latestReleaseDate": "2026-08-10",
-        "checkedAt": "2026-10-11"
+        "checkedAt": "2026-10-12"
       }
     },
     {
@@ -199,7 +199,7 @@
         "lastPush": "2026-10-10T22:15:32Z",
         "latestRelease": null,
         "latestReleaseDate": null,
-        "checkedAt": "2026-10-11"
+        "checkedAt": "2026-10-12"
       }
     },
     {
@@ -234,7 +234,7 @@
         "lastPush": "2026-09-21T20:16:49Z",
         "latestRelease": "v2.0.3",
         "latestReleaseDate": "2026-09-21",
-        "checkedAt": "2026-10-11"
+        "checkedAt": "2026-10-12"
       }
     },
     {
@@ -266,10 +266,10 @@
       },
       "live": {
         "stars": 523,
-        "lastPush": "2026-10-09T21:37:09Z",
+        "lastPush": "2026-10-12T08:27:39Z",
         "latestRelease": null,
         "latestReleaseDate": null,
-        "checkedAt": "2026-10-11"
+        "checkedAt": "2026-10-12"
       }
     },
     {
@@ -300,11 +300,11 @@
         "officialMcpServer": true
       },
       "live": {
-        "stars": 3974,
-        "lastPush": "2026-10-10T03:06:11Z",
+        "stars": 3982,
+        "lastPush": "2026-10-12T12:56:02Z",
         "latestRelease": "v2.2.0",
         "latestReleaseDate": "2026-10-08",
-        "checkedAt": "2026-10-11"
+        "checkedAt": "2026-10-12"
       }
     }
   ]
