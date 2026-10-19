@@ -16,7 +16,7 @@ We build Wireflow, so read entry 1 with that in mind. [Wireflow's AI workflow bu
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-12** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-19** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -50,13 +50,13 @@ One row per tool, one column per thing people actually check before committing. 
 | Tool | Claude connection | REST API | Free tier | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|
 | **[Wireflow](#1-wireflow)** | Claude connector over MCP, OAuth | Yes | [check](https://www.wireflow.ai/pricing) | [pricing](https://www.wireflow.ai/pricing) | n/a |
-| **[fal](#2-fal)** | Hosted MCP, Streamable HTTP, OAuth | Yes | [check](https://fal.ai/pricing) | [pricing](https://fal.ai/pricing) | [fal-ai/fal](https://github.com/fal-ai/fal), 968 ★, fal_v1.81.4 |
-| **[Baseten](#3-baseten)** | Management MCP, dedicated API key | Yes | [check](https://www.baseten.co/pricing) | [pricing](https://www.baseten.co/pricing) | [basetenlabs/truss](https://github.com/basetenlabs/truss), 1,219 ★, v0.18.33 |
+| **[fal](#2-fal)** | Hosted MCP, Streamable HTTP, OAuth | Yes | [check](https://fal.ai/pricing) | [pricing](https://fal.ai/pricing) | [fal-ai/fal](https://github.com/fal-ai/fal), 972 ★, isolate_proto_v0.34.5 |
+| **[Baseten](#3-baseten)** | Management MCP, dedicated API key | Yes | [check](https://www.baseten.co/pricing) | [pricing](https://www.baseten.co/pricing) | [basetenlabs/truss](https://github.com/basetenlabs/truss), 1,220 ★, v0.18.35 |
 | **[RunPod Serverless](#4-runpod-serverless)** | Hosted MCP or npm package; manages infrastructure | Yes | [check](https://www.runpod.io/pricing) | [pricing](https://www.runpod.io/pricing) | [runpod/runpod-python](https://github.com/runpod/runpod-python), 316 ★, v1.12.0 |
-| **[Runware](#5-runware)** | Hosted MCP, OAuth with an API-key form | Yes | [check](https://runware.ai/pricing) | [pricing](https://runware.ai/pricing) | [runware/runware-python](https://github.com/runware/runware-python), 3 ★, pushed 2026-10-10 |
-| **[WaveSpeedAI](#6-wavespeedai)** | Local MCP via npx, API key | Yes | [check](https://wavespeed.ai/docs/how-pricing-works) | [pricing](https://wavespeed.ai/docs/how-pricing-works) | [WaveSpeedAI/wavespeed-python](https://github.com/WaveSpeedAI/wavespeed-python), 28 ★, v2.0.3 |
-| **[Modal](#7-modal)** | n/a | n/a | [check](https://modal.com/pricing) | [pricing](https://modal.com/pricing) | [modal-labs/modal-client](https://github.com/modal-labs/modal-client), 523 ★, pushed 2026-10-12 |
-| **[Hugging Face Inference Endpoints](#8-hugging-face-inference-endpoints)** | Endpoints MCP server, manages endpoints | Yes | [check](https://huggingface.co/docs/inference-endpoints/support/pricing) | [pricing](https://huggingface.co/docs/inference-endpoints/support/pricing) | [huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub), 3,982 ★, v2.2.0 |
+| **[Runware](#5-runware)** | Hosted MCP, OAuth with an API-key form | Yes | [check](https://runware.ai/pricing) | [pricing](https://runware.ai/pricing) | [runware/runware-python](https://github.com/runware/runware-python), 3 ★, pushed 2026-10-12 |
+| **[WaveSpeedAI](#6-wavespeedai)** | Local MCP via npx, API key | Yes | [check](https://wavespeed.ai/docs/how-pricing-works) | [pricing](https://wavespeed.ai/docs/how-pricing-works) | [WaveSpeedAI/wavespeed-python](https://github.com/WaveSpeedAI/wavespeed-python), 28 ★, v2.0.5 |
+| **[Modal](#7-modal)** | n/a | n/a | [check](https://modal.com/pricing) | [pricing](https://modal.com/pricing) | [modal-labs/modal-client](https://github.com/modal-labs/modal-client), 526 ★, pushed 2026-10-16 |
+| **[Hugging Face Inference Endpoints](#8-hugging-face-inference-endpoints)** | Endpoints MCP server, manages endpoints | Yes | [check](https://huggingface.co/docs/inference-endpoints/support/pricing) | [pricing](https://huggingface.co/docs/inference-endpoints/support/pricing) | [huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub), 3,990 ★, v2.2.0 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
