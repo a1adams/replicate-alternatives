@@ -1,7 +1,7 @@
 {
   "keyword": "replicate alternative",
   "title": "Replicate Alternative Platforms: 8 Hosts Compared on Deploys and Webhooks",
-  "lastChecked": "2026-10-26",
+  "lastChecked": "2026-11-02",
   "capabilityChecks": [
     {
       "key": "runsAChainInOneCall",
@@ -90,11 +90,11 @@
         "officialMcpServer": true
       },
       "live": {
-        "stars": 974,
-        "lastPush": "2026-10-24T08:32:34Z",
-        "latestRelease": "fal_v1.83.0",
-        "latestReleaseDate": "2026-10-23",
-        "checkedAt": "2026-10-26"
+        "stars": 979,
+        "lastPush": "2026-11-02T15:30:15Z",
+        "latestRelease": "fal_v1.84.0",
+        "latestReleaseDate": "2026-10-30",
+        "checkedAt": "2026-11-02"
       }
     },
     {
@@ -125,11 +125,11 @@
         "officialMcpServer": true
       },
       "live": {
-        "stars": 1225,
-        "lastPush": "2026-10-24T16:08:52Z",
-        "latestRelease": "v0.18.36",
-        "latestReleaseDate": "2026-10-21",
-        "checkedAt": "2026-10-26"
+        "stars": 1228,
+        "lastPush": "2026-10-30T00:53:13Z",
+        "latestRelease": "v0.18.37",
+        "latestReleaseDate": "2026-10-29",
+        "checkedAt": "2026-11-02"
       }
     },
     {
@@ -160,11 +160,11 @@
         "officialMcpServer": true
       },
       "live": {
-        "stars": 317,
-        "lastPush": "2026-10-26T10:24:30Z",
-        "latestRelease": "v1.12.0",
-        "latestReleaseDate": "2026-08-10",
-        "checkedAt": "2026-10-26"
+        "stars": 318,
+        "lastPush": "2026-11-02T10:23:35Z",
+        "latestRelease": "v2.0.0",
+        "latestReleaseDate": "2026-10-30",
+        "checkedAt": "2026-11-02"
       }
     },
     {
@@ -196,10 +196,10 @@
       },
       "live": {
         "stars": 3,
-        "lastPush": "2026-10-23T08:43:12Z",
+        "lastPush": "2026-10-28T11:29:32Z",
         "latestRelease": null,
         "latestReleaseDate": null,
-        "checkedAt": "2026-10-26"
+        "checkedAt": "2026-11-02"
       }
     },
     {
@@ -234,7 +234,7 @@
         "lastPush": "2026-10-19T20:16:28Z",
         "latestRelease": "v2.0.5",
         "latestReleaseDate": "2026-10-17",
-        "checkedAt": "2026-10-26"
+        "checkedAt": "2026-11-02"
       }
     },
     {
@@ -265,11 +265,11 @@
         "officialMcpServer": null
       },
       "live": {
-        "stars": 528,
-        "lastPush": "2026-10-24T21:52:05Z",
+        "stars": 532,
+        "lastPush": "2026-10-31T08:03:03Z",
         "latestRelease": null,
         "latestReleaseDate": null,
-        "checkedAt": "2026-10-26"
+        "checkedAt": "2026-11-02"
       }
     },
     {
@@ -300,11 +300,11 @@
         "officialMcpServer": true
       },
       "live": {
-        "stars": 4006,
-        "lastPush": "2026-10-24T03:02:09Z",
-        "latestRelease": "v2.3.0",
-        "latestReleaseDate": "2026-10-22",
-        "checkedAt": "2026-10-26"
+        "stars": 4031,
+        "lastPush": "2026-11-02T15:39:03Z",
+        "latestRelease": "v2.4.0",
+        "latestReleaseDate": "2026-10-29",
+        "checkedAt": "2026-11-02"
       }
     }
   ]
